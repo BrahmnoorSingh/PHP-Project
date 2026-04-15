@@ -5,7 +5,6 @@ $file     = "expenses.json";
 $expenses = [];
 $message  = "";
 
-// Handle delete
 if (isset($_GET["delete"])) {
     $deleteId = (int)$_GET["delete"];
 
@@ -25,7 +24,6 @@ if (isset($_GET["delete"])) {
     }
 }
 
-// Load expenses
 if (file_exists($file)) {
     $expenses = json_decode(file_get_contents($file), true);
 }
