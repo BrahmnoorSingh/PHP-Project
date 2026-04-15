@@ -55,7 +55,6 @@ h2 {
     padding-bottom: 8px;
 }
 
-/* Form */
 .form-group {
     margin-bottom: 16px;
 }
@@ -99,7 +98,6 @@ button[type="submit"]:hover {
     background-color: #3b3028;
 }
 
-/* Alerts */
 .alert {
     padding: 10px 16px;
     border-radius: 4px;
@@ -110,7 +108,6 @@ button[type="submit"]:hover {
 .alert-success { background: #d4edda; color: #276234; border: 1px solid #b2dfbc; }
 .alert-error   { background: #f8d7da; color: #7b2228; border: 1px solid #f1b0b7; }
 
-/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -139,7 +136,6 @@ table tbody tr:hover {
     color: #3b3028;
 }
 
-/* Delete link */
 a.delete-btn {
     color: #a33;
     text-decoration: none;
@@ -148,7 +144,6 @@ a.delete-btn {
 
 a.delete-btn:hover { text-decoration: underline; }
 
-/* Summary cards */
 .summary-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -176,7 +171,6 @@ a.delete-btn:hover { text-decoration: underline; }
     color: #3b3028;
 }
 
-/* Home page */
 .home-links {
     display: flex;
     gap: 16px;
